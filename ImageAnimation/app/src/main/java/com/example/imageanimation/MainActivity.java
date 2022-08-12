@@ -13,6 +13,7 @@ public class MainActivity extends AppCompatActivity {
     Button scaleButton;
     Button translateButton;
     ImageView iv_image;
+    
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        
         rotateButton = (Button) findViewById(R.id.rotateImage);
         rotateButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -42,6 +44,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        
         scaleButton = (Button) findViewById(R.id.scaleImage);
         scaleButton.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -54,6 +57,7 @@ public class MainActivity extends AppCompatActivity {
                 });
             }
         });
+        
         translateButton = (Button) findViewById(R.id.translateImage);
         translateButton.setOnClickListener(new View.OnClickListener() {
             @Override
