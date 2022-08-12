@@ -5,6 +5,6 @@ If you wish to test this app yourself, simply download it into Android Studio an
 
 ## Technical details
 For development of the app, I used the java inside of Android Studio IDE.\
-To achieve the animation, I used the androids ViewPropertyAnimator functionality.
+To achieve the animation features of this app, I used the android ViewPropertyAnimator functionality.
 
 If you have any questions contact me here msam.dev/contact.
